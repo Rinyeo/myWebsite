@@ -6,10 +6,20 @@
 	<title>Riny-首页</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-	<!-- bootstrap.css -->
 	<link rel="stylesheet" href="css/main-style.css">
 	<link rel="stylesheet" href="css/main-nav-style.css">
 	<link rel="stylesheet" href="css/main-load.css">
+
+	<script>
+		var nav = window.navigator.userAgent;
+		if (nav.indexOf('IE 9') !== -1 ||
+			nav.indexOf('IE 8') !== -1 ||
+			nav.indexOf('IE 7') !== -1 ||
+			nav.indexOf('IE 6') !== -1 ||
+			nav.indexOf('IE 5') !== -1) {
+			location.href = "http://www.rinhome.com/home/tishi.html";
+		}
+	</script>
 </head>
 <body>
 	<div id="onload">
@@ -28,7 +38,7 @@
 		</div>
 		<!-- GitHub link -->
 		<p class="fooder-link">
-			<img src="images/home/github.png" width="25"> 
+			<img src="images/home/github.png" width="25">
 			<a href="https://github.com/Rinyeo/myWebsite" target="_blank"> View code the GitHub</a>
 		</p>
 		<!-- home-btn -->

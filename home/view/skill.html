@@ -7,6 +7,16 @@
 	<link rel="shortcut icon" href="../favicon.ico" type="/image/x-icon"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/skill-style.css">
+	<script>
+		var nav = window.navigator.userAgent;
+		if (nav.indexOf('IE 9') !== -1 ||
+			nav.indexOf('IE 8') !== -1 ||
+			nav.indexOf('IE 7') !== -1 ||
+			nav.indexOf('IE 6') !== -1 ||
+			nav.indexOf('IE 5') !== -1) {
+			location.href = "http://www.rinhome.com/home/tishi.html";
+		}
+	</script>
 </head>
 <body>
 
@@ -118,7 +128,7 @@
 		<div class="col-sm-6">
 			<div class="division-box">
 				<h5>2. 仿 Bootstrap UI 响应式图片轮播插件</h5>
-				<p class="section-info">该组件是仿照 bootstrap3 中的UI组件，基于原生 js 所开发，无需依赖第三方库。支持响应式，支持键盘左右切换。</p>
+				<p class="section-info">该组件是仿照 bootstrap3 中的UI组件，基于原生 JS 所开发，无需依赖第三方库。支持响应式，支持键盘左右切换。</p>
 				<p><a href="https://github.com/Rinyeo/image_carousel" target="_blank" class="btn btn-primary">查看UI组件</a></p>
 			</div>
 		</div>
@@ -126,7 +136,7 @@
 		<div class="col-sm-6">
 			<div class="division-box">
 				<h5>3. 仿知乎登录窗口UI</h5>
-				<p class="section-info">该组件是仿照知乎登录窗口UI，主要练习原生JavaScript的鼠标拖拽、窗口限定以及创口吸附等功能。</p>
+				<p class="section-info">该组件是仿照知乎登录窗口UI，主要练习原生JS的鼠标事件、Event对象、窗口限定以及窗口吸附等功能。</p>
 				<p><a href="https://github.com/Rinyeo/pointerDrag" target="_blank" class="btn btn-primary">查看UI组件</a></p>
 			</div>
 		</div>
@@ -138,6 +148,8 @@
 				<p><a href="https://github.com/Rinyeo/Resizable" class="btn btn-primary" target="_blank">查看UI组件</a></p>
 			</div>
 		</div>
+		<p>&nbsp;</p>
+		<p>提示：更多组件，请访问GithHub。</p>
 	</div>
 </div>
 
@@ -208,6 +220,7 @@
 	<script src="../js/jquery-2.1.4.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script>
+
 	$(function() {
 		var $nav = $('.nav');
 		var $li = $('.nav li');

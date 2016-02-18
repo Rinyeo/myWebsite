@@ -7,6 +7,9 @@ a:focus{
 outline:0;
 }
 
+body {
+	background: #70D694;
+}
 /*section全局end*/
 .section {
 	text-align: center;
@@ -26,9 +29,6 @@ outline:0;
 
 
 /*section1*/
-.section1{
-	background: #29CCAD;
-}
 .section1 img{
  	border-radius: 50%;
  	padding: 5px;
@@ -124,55 +124,79 @@ outline:0;
 /*section4-end*/
 
 /*section5-start*/
-.section5 img{
+.section5 .wrap{
+	max-width: 400px;
+	margin: 35px auto 0;
+}
+.section5 .wrap p{
+	margin: 10px 0;
+	font-size: 15px;
+	text-align: center;
+}
+.section5 div p:first-child{
+	text-align: left;
+}
+.section5 div p:last-child{
+	text-align: right;
+}
+.section5 .wrap img{
+	margin-right: 12px;
+}
+.section5 .sct-title {
+	text-align: center;
+}
+/*section5-end*/
+
+/*section6-start*/
+
+.section6 img{
 	margin: 30px 20px 0;
 	-moz-border-radius:5px;
 	-wibkit-border-radius:5px;
 	border-radius:5px;
 }
-/*section5-end*/
+/*section6-end*/
 
 
 
-/*section6-start*/
-.section6 p{
+/*section7-start*/
+.section7 p{
 	font-size: 16px;
 	margin-bottom: 35px;
 }
-.section6 .fp-tableCell>div{
+.section7 .fp-tableCell>div{
 	width: 100%;
 	height: 210px;
 }
-.section6 .sec7-img1,
-.section6 .sec7-img2,
-.section6 .sec7-img3,
-.section6 .sec7-img4{
+.section7 .sec7-img1,
+.section7 .sec7-img2,
+.section7 .sec7-img3,
+.section7 .sec7-img4{
 	margin: 20px 20px 0;
 	position: relative;
 }
-.section6 .sec7-img1{
+.section7 .sec7-img1{
 	top: 110px;
 }
-.section6 .sec7-img2{
+.section7 .sec7-img2{
 	left:-14px;
 }
-.section6 .sec7-img3,
-.section6 .sec7-img4{
+.section7 .sec7-img3,
+.section7 .sec7-img4{
 	margin: 20px 28px 0;
 	top: 55px;
 }
-/*section6-end*/
+/*section7-end*/
 
-/*section7-start*/
-.section7 h1{
-	margin: 0 auto 30px;
+/*section8-start*/
 
+.section8 .logo {
+	margin-top: 40px;
 }
-
-.section7 img {
+.section8 img {
 	margin: 0 5px;
 }
-/*section7-end*/
+/*section8-end*/
 
 
 
@@ -193,6 +217,6 @@ outline:0;
 }
 /*自定义修改bootstrap属性*/
 .progress-bar {
-  background-color: #B3E0C7;
+  background-color: #57C877;
   box-shadow: none;
 }
